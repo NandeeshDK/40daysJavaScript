@@ -1,7 +1,14 @@
-# 40 Days of JavaScript  
+# Variables in JavaScript  
 
-A journey of learning JavaScript for 40 days.  
+Variables in JavaScript are used to store and manage data. They can hold different types of values such as numbers, strings, objects, or functions. JavaScript provides three ways to declare variables:  
 
-- **async**: Used when the script is not directly linked to the current application.  
-- **defer**: Used when the script is linked to the current application.  
-- Using these keywords, `.js` files can be placed anywhere within an HTML file.  
+- **var** – Function-scoped and can be re-declared or updated.  
+- **let** – Block-scoped and can be updated but not re-declared within the same scope.  
+- **const** – Block-scoped and cannot be re-declared or updated after assignment.  
+
+## Example  
+
+```javascript
+var x = 10;  // Function-scoped  
+let y = 20;  // Block-scoped  
+const z = 30; // Cannot be reassigned  
