@@ -5,4 +5,5 @@ A journey of learning JavaScript for 40 days.
 - **async**: Used when the script is not directly linked to the current application.  
 - **defer**: Used when the script is linked to the current application.  
 - Using these keywords, `.js` files can be placed anywhere within an HTML file.  
-
+below is image 
+![image](https://github.com/user-attachments/assets/44725f99-c1fc-4f31-9365-b686d44d5228)
